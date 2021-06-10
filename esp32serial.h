@@ -67,7 +67,7 @@ private:
 public:
     TaskHandle_t debugTask;
 
-    Esp32Serial(const uint baud, size_t queue_length = 10, bool colour = false);
+    Esp32Serial(const uint baud, size_t queue_length = 10);
     ~Esp32Serial(void);
 
     int info(const char* format, ...);

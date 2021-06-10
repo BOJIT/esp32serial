@@ -114,7 +114,7 @@ int Esp32Serial::_debugSend(int type, char colour[2], const char* format, va_lis
 /*------------------------------- Public Methods -----------------------------*/
 
 
-Esp32Serial::Esp32Serial(const uint baud, size_t queue_length, bool colour)
+Esp32Serial::Esp32Serial(const uint baud, size_t queue_length)
 {
     /* Initialise Serial communication */
     Serial.begin(baud);
